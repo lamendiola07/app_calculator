@@ -15,6 +15,8 @@ import pyfiglet
 from simple_colors import *
 from pyfiglet import figlet_format
 
+import datetime
+
 def operation():
 
     print(red("\nHere are the Mathematical Operations to be utilized in this program ~", ['italic','underlined']))
@@ -88,6 +90,10 @@ def operation():
 
     else:
         print("")
+
+date_and_time = datetime.datetime(2023, 5, 8, 7, 2)
+print("\n\nTime created:")
+print(date_and_time)
 
 operation()
 
