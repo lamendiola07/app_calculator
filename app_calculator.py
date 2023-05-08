@@ -95,6 +95,11 @@ date_and_time = datetime.datetime(2023, 5, 8, 7, 2)
 print("\n\nTime created:")
 print(date_and_time)
 
+print("\n\nGreetings User! Welcome back to another program simulation in Object Oriented Programming!")
+print("\nIn this program, we will ask you to choose from one of the four math operations, by asking for two digits")
+print("\nwhile also being able to repeat the program and keeping and capturing errors during our runtime")
+print("\nNow let's get started.\n")
+
 operation()
 
 while True:
