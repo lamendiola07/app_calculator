@@ -11,9 +11,18 @@
 # 7. Use Python Function and appropriate Exceptions to capture errors during   
 #    runtime
 
+import pyfiglet
+from simple_colors import *
+from pyfiglet import figlet_format
+
 def operation():
-    print("\nPlease choose among the math operation you would like to try")
-    print("\nOPERATION I: ADDITION \nOPERATION II: SUBTRACTION \nOPERATION III: MULTIPLICATION \nOPERATION IV: DIVISION")
+
+    print(red("\nHere are the Mathematical Operations to be utilized in this program ~", ['italic','underlined']))
+    print(blue("\nOPERATION I: ADDITION", ['bold']))
+    print(green("\nOPERATION II: SUBTRACTION", ['bold']))
+    print(yellow("\nOPERATION III: MULTIPLICATION", ['bold']))
+    print(magenta("\nOPERATION IV: DIVISION", ['bold']))
+
     operation_decision = int(input("\n\nPlease type in the following to choose: \n'1' - ADDITION \n'2' - SUBTRACTION \n'3' - MULTIPLICATION \n'4' - DIVISION \nYour choice is: "))
 
 
