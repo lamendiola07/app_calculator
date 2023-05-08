@@ -28,63 +28,63 @@ def operation():
 
     if operation_decision == 1:
         try:
-            print("C O M M E N C I N G . . . . .  A D D I T I O N  O P E R A T I O N . . . . .")
+            print(green("\nC O M M E N C I N G . . . . .  A D D I T I O N  O P E R A T I O N . . . . ."))
             first_digit = float(input("Please enter a digit as your first number: "))
             second_digit = float(input("Please enter a digit as your second number: "))
             add_computation = first_digit + second_digit
             print("The answer is:",add_computation)
         except:
-            print("\nAn error occured")
+            print(red("\nAn error occured"))
         else:
-            print("\nNo error has occured")
+            print(yellow("\nNo error has occured"))
         finally:
-            print("Program is finished")
+            print(green("Program is finished"))
 
     
 
     elif operation_decision == 2:
         try:
-            print("C O M M E N C I N G . . . . .  S U B T R A C T I O N  O P E R A T I O N . . . . .")
+            print(green("\nC O M M E N C I N G . . . . .  S U B T R A C T I O N  O P E R A T I O N . . . . ."))
             first_digit = float(input("Please enter a digit as your first number: "))
             second_digit = float(input("Please enter a digit as your second number: "))
             minus_computation = first_digit - second_digit
             print("The answer is:",minus_computation)
         except:
-            print("\nAn error occured")
+            print(red("\nAn error occured"))
         else:
-            print("\nNo error has occured")
+            print(yellow("\nNo error has occured"))
         finally:
-            print("Program is finished")
+            print(green("Program is finished"))
 
 
     elif operation_decision == 3:
         try:
-            print("C O M M E N C I N G . . . . .  M U L T I P L I C A T I O N  O P E R A T I O N . . . . .")
+            print(green("\nC O M M E N C I N G . . . . .  M U L T I P L I C A T I O N  O P E R A T I O N . . . . ."))
             first_digit = float(input("Please enter a digit as your first number: "))
             second_digit = float(input("Please enter a digit as your second number: "))
             multiply_computation = first_digit * second_digit
             print("The answer is:",multiply_computation)
         except:
-            print("\nAn error occured")
+            print(red("\nAn error occured"))
         else:
-            print("\nNo error has occured")
+            print(yellow("\nNo error has occured"))
         finally:
-            print("Program is finished")
+            print(green("Program is finished"))
 
     
     elif operation_decision == 4:
         try:
-            print("C O M M E N C I N G . . . . .  D I V I S I O N  O P E R A T I O N . . . . .")
+            print("\nC O M M E N C I N G . . . . .  D I V I S I O N  O P E R A T I O N . . . . .")
             first_digit = float(input("Please enter a digit as your first number: "))
             second_digit = float(input("Please enter a digit as your second number: "))
             divide_computation = first_digit / second_digit
             print("The answer is:",divide_computation)
         except:
-            print("\nAn error occured")
+            print(red("\nAn error occured"))
         else:
-            print("\nNo error has occured")
+            print(yellow("\nNo error has occured"))
         finally:
-            print("Program is finished")
+            print(green("Program is finished"))
 
     else:
         print("")
@@ -94,10 +94,11 @@ operation()
 while True:
     repeat_operation = input("\nWould you like to repeat the program? \nPlease type 'Y' for Yes or 'N' for No: ")
     if repeat_operation == "Y":
+        print(magenta("\n- - - - - - - - - - - - - - - R E S T A R T I N G      P R O G R A M     S E Q U E N C E - - - - - - - - - - - - - - - - - - - - -", ['bold']))
         operation()
     
     else:
-        print("Thank you for participating with us, the program will now exit.")
+        print(yellow("\n\nThank you for participating with us, the program will now exit."))
         print("      ╱|、")
         print("     (˚u 。7  ")
         print("      |、˜〵")         
