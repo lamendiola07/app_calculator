@@ -81,3 +81,12 @@ def operation():
         print("")
 
 operation()
+
+while True:
+    repeat_operation = input("\nWould you like to repeat the program? \nPlease type 'Y' for Yes or 'N' for No: ")
+    if repeat_operation == "Y":
+        operation()
+    
+    else:
+        print("Thank you for participating with us, the program will now exit.")
+        break
