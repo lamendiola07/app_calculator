@@ -89,4 +89,8 @@ while True:
     
     else:
         print("Thank you for participating with us, the program will now exit.")
+        print("      ╱|、")
+        print("     (˚u 。7  ")
+        print("      |、˜〵")         
+        print("      じしˍ,)ノ")
         break
